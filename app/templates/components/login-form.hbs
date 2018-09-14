@@ -1,0 +1,23 @@
+<form {{action 'authenticate' on='submit'}}>
+	<div>
+	  {{input value=identification
+	    placeholder='Email'
+	    name='identification'
+	    autofocus='true'}}
+	</div>
+	<div>
+	  {{input
+	    value=password
+	    placeholder='Password'
+	    type='password'
+	    name='password'}}
+	</div>
+	<button type="submit">
+		Log In
+	</button>
+	<div>
+	  <a href="#">
+	    Forgot password?
+	  </a>
+	</div>
+</form>

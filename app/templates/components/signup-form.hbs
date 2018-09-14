@@ -1,0 +1,18 @@
+<form {{action 'signup' on='submit'}}>
+	<div>
+	  {{input value=identification
+	    placeholder='Email'
+	    name='identification'
+	    autofocus='true'}}
+	</div>
+	<div>
+	  {{input
+	    value=password
+	    placeholder='Password'
+	    type='password'
+	    name='password'}}
+	</div>
+	<button type="submit">
+		Sign Up
+	</button>
+</form>
